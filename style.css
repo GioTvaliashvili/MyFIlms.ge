@@ -1,7 +1,12 @@
+
+
 img{
     height: 326px;
-    
+
 }
+
+
+
 body{
     background-color: rgb(41, 7, 176);
 }
@@ -30,3 +35,9 @@ ul{
 h2{
     color: gold;
 }
+
+  @media (max-width: 600px) {
+      .box {
+        flex: 1 1 100%;
+      }
+    }
