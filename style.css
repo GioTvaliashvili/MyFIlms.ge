@@ -64,7 +64,8 @@ h2 {
     align-items: center;
     gap: 10px;
     box-sizing: border-box;
-    height: 50px;
+    height: -150px;
+    color: red;
     
 }
 
