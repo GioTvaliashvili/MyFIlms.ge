@@ -1,60 +1,128 @@
-
-
-img{
-    height: 326px;
-
+img {
+    height: 310px;
+    
 }
 
-
-
-body{
+body {
     background-color: rgb(41, 7, 176);
+    margin: 0;
 }
-h1{
+
+h1 {
     background-color: rgb(6, 253, 15);
     color: rgb(3, 62, 62);
+    padding: 10px;
+    font-size: 2rem;
+    margin: 0;
 }
-button{
 
+button {
     background-color: black;
     color: aqua;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
-label{
+
+label {
     color: rgb(3, 251, 251);
 }
-textarea{
+
+textarea {
     background-color: black;
     color: rgba(7, 250, 19, 0.897);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1rem;
 }
-table{
+
+table {
     background-color: gold;
+    width: 100%;
+    border-collapse: collapse;
 }
-ul{
+
+ul {
     color: silver;
 }
-h2{
+
+h2 {
     color: gold;
 }
 
-  @media (max-width: 600px) {
-      .box {
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    flex: 1 1 auto;
+}
+
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 1.7rem;
+        padding: 8px;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    button {
+        padding: 12px 18px;
+        font-size: 1.1rem;
+    }
+    textarea {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .box {
         flex: 1 1 100%;
-      }
     }
-
-
-    
+    h1 {
+        font-size: 1.3rem;
+        padding: 6px;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1.2rem;
+    }
+    textarea {
+        font-size: 1.2rem;
+    }
     .menu {
-        position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #222;
-      padding: 20px;
-      z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-     
+        flex-direction: column;
+        padding: 10px;
+        gap: 8px;
     }
+}
+
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
