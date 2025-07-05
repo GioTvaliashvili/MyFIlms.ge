@@ -69,6 +69,98 @@ h2 {
     
 }
 
+
+
+
+.menubtn{
+    background-color: aqua;
+}
+.btn1{
+    background-color: rgb(26, 4, 85);
+  
+}
+
+.btn2{
+    background-color: rgb(26, 4, 85);
+  
+}
+
+
+.btn3{
+   background-color: rgb(26, 4, 85);
+  
+}
+
+
+
+
+.btn4{
+    background-color: rgb(26, 4, 85);
+  
+}
+
+
+
+
+.btn5{
+     background-color: rgb(26, 4, 85);
+  
+}
+
+
+
+
+
+
+
+.btn6{
+    background-color: rgb(26, 4, 85);
+  
+}
+
+
+
+
+
+.btn7{
+     background-color: rgb(26, 4, 85);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .logo{
+   height: 90px;
+   width: 100px;
+   position: fixed;
+   left: 0;
+   
+
+   
+ }
+    
+
+
 .box {
     flex: 1 1 auto;
 }
@@ -107,6 +199,10 @@ h2 {
         padding: 14px;
         font-size: 1.2rem;
     }
+    
+
+
+
     textarea {
         font-size: 1.2rem;
     }
