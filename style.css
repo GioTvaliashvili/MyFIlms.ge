@@ -89,7 +89,9 @@ transition: transform 0.3s ;
     
     
     
-
+.hero{
+    margin-bottom:100px;
+}
     
   }
   
