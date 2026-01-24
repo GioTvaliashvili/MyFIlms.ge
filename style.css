@@ -89,7 +89,9 @@ transition: transform 0.3s ;
     
     
     
-
+.hero{
+    ;
+}
     
   }
   
@@ -103,11 +105,12 @@ transition: transform 0.3s ;
       align-items: center;
       overflow: hidden;
       color: #00eaff;
+    
           }
 
      .overlay {
       background-color: rgba(0,0,0,0.4);
-      margin-bottom: 150px;
+
       
       padding: 30px  200px;
       border-radius: 15px;
@@ -158,7 +161,7 @@ button {
     cursor: pointer;
     border-radius: 10px;
 }
-   
+
 button:hover{
      transform: scale(1.05);
       background: #3d0707;
