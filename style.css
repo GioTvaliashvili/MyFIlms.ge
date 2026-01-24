@@ -159,7 +159,7 @@ button {
     border-radius: 10px;
 }
 .hero{
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 button:hover{
      transform: scale(1.05);
