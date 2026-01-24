@@ -225,6 +225,24 @@ table {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+ .logo{
+   height: 90px;
+   width: 100px;
+   position: fixed;
+   left: 0;
+   
+
+   
+ }
+    
+
+
+>>>>>>> d0f8b3d1f98629bc4c846cb91fc89bdc187ec2d5
 .box {
     flex: 1 1 auto;
 }
