@@ -158,7 +158,9 @@ button {
     cursor: pointer;
     border-radius: 10px;
 }
-   
+.hero{
+    margin-bottom: 50px;
+}
 button:hover{
      transform: scale(1.05);
       background: #3d0707;
