@@ -57,7 +57,7 @@ body {
     width: 20px;
     text-align: center;
     display: flex;
-    position: fixed;
+    position: sticky;
 }
 
 .logodiv {
@@ -80,7 +80,10 @@ transition: transform 0.3s ;
 
     
 }
-
+a{
+  color: inherit;
+  text-decoration: none;
+}
 
   .ulmenu{
     padding-top: 140px;
@@ -89,9 +92,8 @@ transition: transform 0.3s ;
     
     
     
-.hero{
-    ;
-}
+ 
+
     
   }
   
@@ -223,29 +225,6 @@ table {
 
 
 
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
- .logo{
-   height: 90px;
-   width: 100px;
-   position: fixed;
-   left: 0;
-   
-
-   
- }
-    
-
-
->>>>>>> d0f8b3d1f98629bc4c846cb91fc89bdc187ec2d5
 .box {
     flex: 1 1 auto;
 }
